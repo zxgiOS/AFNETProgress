@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AD88E31DA890E500C19D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD88E21DA890E500C19D30 /* main.m */; };
+		18AD88E61DA890E500C19D30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD88E51DA890E500C19D30 /* AppDelegate.m */; };
+		18AD88E91DA890E500C19D30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD88E81DA890E500C19D30 /* ViewController.m */; };
+		18AD88EC1DA890E500C19D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD88EA1DA890E500C19D30 /* Main.storyboard */; };
+		18AD88EE1DA890E500C19D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AD88ED1DA890E500C19D30 /* Assets.xcassets */; };
+		18AD88F11DA890E500C19D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD88EF1DA890E500C19D30 /* LaunchScreen.storyboard */; };
+		18AD88FC1DA890E500C19D30 /* AFNETProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD88FB1DA890E500C19D30 /* AFNETProgressTests.m */; };
+		18AD89071DA890E500C19D30 /* AFNETProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89061DA890E500C19D30 /* AFNETProgressUITests.m */; };
+		18AD89281DA8910000C19D30 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89161DA8910000C19D30 /* AFHTTPRequestOperation.m */; };
+		18AD89291DA8910000C19D30 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89181DA8910000C19D30 /* AFHTTPRequestOperationManager.m */; };
+		18AD892A1DA8910000C19D30 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD891A1DA8910000C19D30 /* AFHTTPSessionManager.m */; };
+		18AD892B1DA8910000C19D30 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD891D1DA8910000C19D30 /* AFNetworkReachabilityManager.m */; };
+		18AD892C1DA8910000C19D30 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD891F1DA8910000C19D30 /* AFSecurityPolicy.m */; };
+		18AD892D1DA8910000C19D30 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89211DA8910000C19D30 /* AFURLConnectionOperation.m */; };
+		18AD892E1DA8910000C19D30 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89231DA8910000C19D30 /* AFURLRequestSerialization.m */; };
+		18AD892F1DA8910000C19D30 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89251DA8910000C19D30 /* AFURLResponseSerialization.m */; };
+		18AD89301DA8910000C19D30 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89271DA8910000C19D30 /* AFURLSessionManager.m */; };
+		18AD89351DA8C3A900C19D30 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD89341DA8C3A900C19D30 /* CircleProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AD88F81DA890E500C19D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AD88D61DA890E500C19D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AD88DD1DA890E500C19D30;
+			remoteInfo = AFNETProgress;
+		};
+		18AD89031DA890E500C19D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AD88D61DA890E500C19D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AD88DD1DA890E500C19D30;
+			remoteInfo = AFNETProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AD88DE1DA890E500C19D30 /* AFNETProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNETProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AD88E21DA890E500C19D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18AD88E41DA890E500C19D30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18AD88E51DA890E500C19D30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18AD88E71DA890E500C19D30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18AD88E81DA890E500C19D30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AD88EB1DA890E500C19D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AD88ED1DA890E500C19D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AD88F01DA890E500C19D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AD88F21DA890E500C19D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AD88F71DA890E500C19D30 /* AFNETProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNETProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AD88FB1DA890E500C19D30 /* AFNETProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNETProgressTests.m; sourceTree = "<group>"; };
+		18AD88FD1DA890E500C19D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AD89021DA890E500C19D30 /* AFNETProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNETProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AD89061DA890E500C19D30 /* AFNETProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNETProgressUITests.m; sourceTree = "<group>"; };
+		18AD89081DA890E500C19D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AD89151DA8910000C19D30 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		18AD89161DA8910000C19D30 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		18AD89171DA8910000C19D30 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		18AD89181DA8910000C19D30 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		18AD89191DA8910000C19D30 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		18AD891A1DA8910000C19D30 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		18AD891B1DA8910000C19D30 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		18AD891C1DA8910000C19D30 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		18AD891D1DA8910000C19D30 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		18AD891E1DA8910000C19D30 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		18AD891F1DA8910000C19D30 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		18AD89201DA8910000C19D30 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		18AD89211DA8910000C19D30 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		18AD89221DA8910000C19D30 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		18AD89231DA8910000C19D30 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		18AD89241DA8910000C19D30 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		18AD89251DA8910000C19D30 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		18AD89261DA8910000C19D30 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		18AD89271DA8910000C19D30 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		18AD89331DA8C3A900C19D30 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		18AD89341DA8C3A900C19D30 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AD88DB1DA890E500C19D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD88F41DA890E500C19D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD88FF1DA890E500C19D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AD88D51DA890E500C19D30 = {
+			isa = PBXGroup;
+			children = (
+				18AD89141DA8910000C19D30 /* AFNetworking请求 */,
+				18AD88E01DA890E500C19D30 /* AFNETProgress */,
+				18AD88FA1DA890E500C19D30 /* AFNETProgressTests */,
+				18AD89051DA890E500C19D30 /* AFNETProgressUITests */,
+				18AD88DF1DA890E500C19D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AD88DF1DA890E500C19D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AD88DE1DA890E500C19D30 /* AFNETProgress.app */,
+				18AD88F71DA890E500C19D30 /* AFNETProgressTests.xctest */,
+				18AD89021DA890E500C19D30 /* AFNETProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AD88E01DA890E500C19D30 /* AFNETProgress */ = {
+			isa = PBXGroup;
+			children = (
+				18AD88E41DA890E500C19D30 /* AppDelegate.h */,
+				18AD88E51DA890E500C19D30 /* AppDelegate.m */,
+				18AD88E71DA890E500C19D30 /* ViewController.h */,
+				18AD88E81DA890E500C19D30 /* ViewController.m */,
+				18AD89331DA8C3A900C19D30 /* CircleProgressView.h */,
+				18AD89341DA8C3A900C19D30 /* CircleProgressView.m */,
+				18AD88EA1DA890E500C19D30 /* Main.storyboard */,
+				18AD88ED1DA890E500C19D30 /* Assets.xcassets */,
+				18AD88EF1DA890E500C19D30 /* LaunchScreen.storyboard */,
+				18AD88F21DA890E500C19D30 /* Info.plist */,
+				18AD88E11DA890E500C19D30 /* Supporting Files */,
+			);
+			path = AFNETProgress;
+			sourceTree = "<group>";
+		};
+		18AD88E11DA890E500C19D30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AD88E21DA890E500C19D30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AD88FA1DA890E500C19D30 /* AFNETProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AD88FB1DA890E500C19D30 /* AFNETProgressTests.m */,
+				18AD88FD1DA890E500C19D30 /* Info.plist */,
+			);
+			path = AFNETProgressTests;
+			sourceTree = "<group>";
+		};
+		18AD89051DA890E500C19D30 /* AFNETProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18AD89061DA890E500C19D30 /* AFNETProgressUITests.m */,
+				18AD89081DA890E500C19D30 /* Info.plist */,
+			);
+			path = AFNETProgressUITests;
+			sourceTree = "<group>";
+		};
+		18AD89141DA8910000C19D30 /* AFNetworking请求 */ = {
+			isa = PBXGroup;
+			children = (
+				18AD89151DA8910000C19D30 /* AFHTTPRequestOperation.h */,
+				18AD89161DA8910000C19D30 /* AFHTTPRequestOperation.m */,
+				18AD89171DA8910000C19D30 /* AFHTTPRequestOperationManager.h */,
+				18AD89181DA8910000C19D30 /* AFHTTPRequestOperationManager.m */,
+				18AD89191DA8910000C19D30 /* AFHTTPSessionManager.h */,
+				18AD891A1DA8910000C19D30 /* AFHTTPSessionManager.m */,
+				18AD891B1DA8910000C19D30 /* AFNetworking.h */,
+				18AD891C1DA8910000C19D30 /* AFNetworkReachabilityManager.h */,
+				18AD891D1DA8910000C19D30 /* AFNetworkReachabilityManager.m */,
+				18AD891E1DA8910000C19D30 /* AFSecurityPolicy.h */,
+				18AD891F1DA8910000C19D30 /* AFSecurityPolicy.m */,
+				18AD89201DA8910000C19D30 /* AFURLConnectionOperation.h */,
+				18AD89211DA8910000C19D30 /* AFURLConnectionOperation.m */,
+				18AD89221DA8910000C19D30 /* AFURLRequestSerialization.h */,
+				18AD89231DA8910000C19D30 /* AFURLRequestSerialization.m */,
+				18AD89241DA8910000C19D30 /* AFURLResponseSerialization.h */,
+				18AD89251DA8910000C19D30 /* AFURLResponseSerialization.m */,
+				18AD89261DA8910000C19D30 /* AFURLSessionManager.h */,
+				18AD89271DA8910000C19D30 /* AFURLSessionManager.m */,
+			);
+			path = "AFNetworking请求";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AD88DD1DA890E500C19D30 /* AFNETProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AD890B1DA890E500C19D30 /* Build configuration list for PBXNativeTarget "AFNETProgress" */;
+			buildPhases = (
+				18AD88DA1DA890E500C19D30 /* Sources */,
+				18AD88DB1DA890E500C19D30 /* Frameworks */,
+				18AD88DC1DA890E500C19D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNETProgress;
+			productName = AFNETProgress;
+			productReference = 18AD88DE1DA890E500C19D30 /* AFNETProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AD88F61DA890E500C19D30 /* AFNETProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AD890E1DA890E500C19D30 /* Build configuration list for PBXNativeTarget "AFNETProgressTests" */;
+			buildPhases = (
+				18AD88F31DA890E500C19D30 /* Sources */,
+				18AD88F41DA890E500C19D30 /* Frameworks */,
+				18AD88F51DA890E500C19D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AD88F91DA890E500C19D30 /* PBXTargetDependency */,
+			);
+			name = AFNETProgressTests;
+			productName = AFNETProgressTests;
+			productReference = 18AD88F71DA890E500C19D30 /* AFNETProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18AD89011DA890E500C19D30 /* AFNETProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AD89111DA890E500C19D30 /* Build configuration list for PBXNativeTarget "AFNETProgressUITests" */;
+			buildPhases = (
+				18AD88FE1DA890E500C19D30 /* Sources */,
+				18AD88FF1DA890E500C19D30 /* Frameworks */,
+				18AD89001DA890E500C19D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AD89041DA890E500C19D30 /* PBXTargetDependency */,
+			);
+			name = AFNETProgressUITests;
+			productName = AFNETProgressUITests;
+			productReference = 18AD89021DA890E500C19D30 /* AFNETProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AD88D61DA890E500C19D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18AD88DD1DA890E500C19D30 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					18AD88F61DA890E500C19D30 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18AD88DD1DA890E500C19D30;
+					};
+					18AD89011DA890E500C19D30 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18AD88DD1DA890E500C19D30;
+					};
+				};
+			};
+			buildConfigurationList = 18AD88D91DA890E500C19D30 /* Build configuration list for PBXProject "AFNETProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AD88D51DA890E500C19D30;
+			productRefGroup = 18AD88DF1DA890E500C19D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AD88DD1DA890E500C19D30 /* AFNETProgress */,
+				18AD88F61DA890E500C19D30 /* AFNETProgressTests */,
+				18AD89011DA890E500C19D30 /* AFNETProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AD88DC1DA890E500C19D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD88F11DA890E500C19D30 /* LaunchScreen.storyboard in Resources */,
+				18AD88EE1DA890E500C19D30 /* Assets.xcassets in Resources */,
+				18AD88EC1DA890E500C19D30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD88F51DA890E500C19D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD89001DA890E500C19D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AD88DA1DA890E500C19D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD89281DA8910000C19D30 /* AFHTTPRequestOperation.m in Sources */,
+				18AD88E91DA890E500C19D30 /* ViewController.m in Sources */,
+				18AD89291DA8910000C19D30 /* AFHTTPRequestOperationManager.m in Sources */,
+				18AD89351DA8C3A900C19D30 /* CircleProgressView.m in Sources */,
+				18AD892B1DA8910000C19D30 /* AFNetworkReachabilityManager.m in Sources */,
+				18AD892F1DA8910000C19D30 /* AFURLResponseSerialization.m in Sources */,
+				18AD892D1DA8910000C19D30 /* AFURLConnectionOperation.m in Sources */,
+				18AD892C1DA8910000C19D30 /* AFSecurityPolicy.m in Sources */,
+				18AD892A1DA8910000C19D30 /* AFHTTPSessionManager.m in Sources */,
+				18AD892E1DA8910000C19D30 /* AFURLRequestSerialization.m in Sources */,
+				18AD89301DA8910000C19D30 /* AFURLSessionManager.m in Sources */,
+				18AD88E61DA890E500C19D30 /* AppDelegate.m in Sources */,
+				18AD88E31DA890E500C19D30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD88F31DA890E500C19D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD88FC1DA890E500C19D30 /* AFNETProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AD88FE1DA890E500C19D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD89071DA890E500C19D30 /* AFNETProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AD88F91DA890E500C19D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AD88DD1DA890E500C19D30 /* AFNETProgress */;
+			targetProxy = 18AD88F81DA890E500C19D30 /* PBXContainerItemProxy */;
+		};
+		18AD89041DA890E500C19D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AD88DD1DA890E500C19D30 /* AFNETProgress */;
+			targetProxy = 18AD89031DA890E500C19D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AD88EA1DA890E500C19D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD88EB1DA890E500C19D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AD88EF1DA890E500C19D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD88F01DA890E500C19D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AD89091DA890E500C19D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18AD890A1DA890E500C19D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AD890C1DA890E500C19D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFNETProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengchun.AFNETProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18AD890D1DA890E500C19D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFNETProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengchun.AFNETProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18AD890F1DA890E500C19D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AFNETProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengchun.AFNETProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNETProgress.app/AFNETProgress";
+			};
+			name = Debug;
+		};
+		18AD89101DA890E500C19D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AFNETProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengchun.AFNETProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNETProgress.app/AFNETProgress";
+			};
+			name = Release;
+		};
+		18AD89121DA890E500C19D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AFNETProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengchun.AFNETProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AFNETProgress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18AD89131DA890E500C19D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AFNETProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengchun.AFNETProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AFNETProgress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AD88D91DA890E500C19D30 /* Build configuration list for PBXProject "AFNETProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD89091DA890E500C19D30 /* Debug */,
+				18AD890A1DA890E500C19D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AD890B1DA890E500C19D30 /* Build configuration list for PBXNativeTarget "AFNETProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD890C1DA890E500C19D30 /* Debug */,
+				18AD890D1DA890E500C19D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AD890E1DA890E500C19D30 /* Build configuration list for PBXNativeTarget "AFNETProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD890F1DA890E500C19D30 /* Debug */,
+				18AD89101DA890E500C19D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AD89111DA890E500C19D30 /* Build configuration list for PBXNativeTarget "AFNETProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD89121DA890E500C19D30 /* Debug */,
+				18AD89131DA890E500C19D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AD88D61DA890E500C19D30 /* Project object */;
+}
